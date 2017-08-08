@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="529px" viewBox="0 0 264 529" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>additem</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="25" y="435" width="215" height="21" rx="3"></rect>
+        <rect id="path-2" x="25" y="473" width="215" height="21" rx="3"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="additem">
+            <text id="Add-an-item" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#222222">
+                <tspan x="11" y="23">Add an item</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#D8D8D8" x="22.5" y="67.5" width="214" height="20" rx="3"></rect>
+            <text id="Item-Name" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" fill="#989898">
+                <tspan x="34" y="59">Item Name</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#D8D8D8" x="22.5" y="129.5" width="214" height="20" rx="3"></rect>
+            <text id="SKU" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" fill="#989898">
+                <tspan x="34" y="121">SKU</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#D8D8D8" x="22.5" y="191.5" width="214" height="20" rx="3"></rect>
+            <text id="Internal-Price" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" fill="#989898">
+                <tspan x="34" y="183">Internal Price</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#D8D8D8" x="22.5" y="253.5" width="214" height="20" rx="3"></rect>
+            <text id="Sale-Price" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" fill="#989898">
+                <tspan x="34" y="245">Sale Price</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#D8D8D8" x="22.5" y="315.5" width="214" height="20" rx="3"></rect>
+            <text id="Quantity" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" fill="#989898">
+                <tspan x="34" y="307">Quantity</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#D8D8D8" x="22.5" y="377.5" width="214" height="20" rx="3"></rect>
+            <g id="Rectangle">
+                <use fill="#5CB75C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#D8D8D8" stroke-width="1" x="25.5" y="435.5" width="214" height="20" rx="3"></rect>
+            </g>
+            <text id="Add" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" fill="#FFFFFF">
+                <tspan x="124" y="448">Add</tspan>
+            </text>
+            <g id="Rectangle">
+                <use fill="#D9534F" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#D8D8D8" stroke-width="1" x="25.5" y="473.5" width="214" height="20" rx="3"></rect>
+            </g>
+            <text id="Cancel" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" fill="#FFFFFF">
+                <tspan x="118" y="486">Cancel</tspan>
+            </text>
+            <text id="Details" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" fill="#989898">
+                <tspan x="34" y="369">Details</tspan>
+            </text>
+            <path d="M0.5,416.5 L263.5,416.5" id="Line-Copy" stroke="#F2F2F2" stroke-linecap="square"></path>
+            <path d="M0.5,33.5 L263.5,33.5" id="Line" stroke="#F2F2F2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
