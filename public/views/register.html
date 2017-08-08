@@ -1,0 +1,57 @@
+
+<div class="container-fluid" style="height: 100%; padding: 0; margin: 0 auto; background-image: url(/img/triangle-bg.svg); background-size: cover; position: relative;">
+  <div class="col-md-12" style="position: absolute; top: 50%; height: 20%; margin-top: -20%; width: 100%;">
+    <div class="col-md-6" style="height: 100%; color: #222111; font-weight: 400;">
+      <h2>What's next?</h2>
+      <br>
+      <ul style="font-size: 1.2em;">
+        <li>Send me an email! I'll set up your inventory for you -- daniel@keepinstock.com.</li>
+        <li>Add any customer data you currently have on the customers page.</li>
+        <li>Start using KeepInStock to grow your business like a pro.</li>
+        <li>Enjoy your 7-day free trial. Cancel at any time (just email me).</li>
+        <li>If you decide to continue using the product, <strong>you'll only pay $5/month!</strong></li>
+      </ul>
+    </div>
+
+    <div class="col-md-6" style="">
+      <form id="payment-form" >
+        <p style="color: #8898AA;">Sign Up</p>
+        <div class="group">
+          <label>
+            <span>Name</span>
+            <input name="cardholder-name" class="field" placeholder="Jane Doe" ng-model="name"/>
+          </label>
+          <label>
+            <span>Email</span>
+            <input class="field" placeholder="jane@doe.com" type="email" ng-model="email"/>
+          </label>
+          <label>
+            <span>Phone</span>
+            <input class="field" placeholder="(123) 456-7890" type="tel" ng-model="phone"/>
+          </label>
+          <label>
+            <span>Password</span>
+            <input class="field" placeholder="●●●●●●●●" type="password" ng-model="password"/>
+          </label>
+        </div>
+        <div class="group">
+          <label>
+            <span>Card</span>
+            <div id="card-element" class="field"></div>
+          </label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="col-md-12 text-center">
+          <br>
+          <p style="color: #8898AA"><strong>7-day free trial then $5/month</strong></p>
+        </div>
+        <div class="outcome">
+          <div class="error" role="alert"></div>
+          <div class="success">
+            Success! Your Stripe token is <span class="token"></span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

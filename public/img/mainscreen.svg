@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="921px" height="564px" viewBox="0 0 921 564" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>mainscreen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="817" y="212" width="64" height="26" rx="3"></rect>
+        <rect id="path-2" x="817" y="272" width="64" height="26" rx="3"></rect>
+        <rect id="path-3" x="817" y="332" width="64" height="26" rx="3"></rect>
+        <rect id="path-4" x="817" y="391" width="64" height="26" rx="3"></rect>
+        <rect id="path-5" x="817" y="453" width="64" height="26" rx="3"></rect>
+        <rect id="path-6" x="817" y="511" width="64" height="26" rx="3"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mainscreen">
+            <rect id="Rectangle" fill="#D8D8D8" x="16" y="12" width="883" height="449" rx="6"></rect>
+            <circle id="Oval" fill="#FF8686" cx="35.5" cy="27.5" r="9.5"></circle>
+            <circle id="Oval-Copy" fill="#FFC844" cx="71.5" cy="27.5" r="9.5"></circle>
+            <circle id="Oval-Copy-2" fill="#00D90C" cx="107.5" cy="27.5" r="9.5"></circle>
+            <rect id="background" fill="#FFFFFF" x="16" y="44" width="883" height="498"></rect>
+            <path d="M28.5,139.5 L886.502331,139.5" id="top-line" stroke="#E9E9E9" stroke-linecap="square"></path>
+            <path d="M28.5,194.5 L886.502331,194.5" id="top-line-copy" stroke="#E9E9E9" stroke-linecap="square"></path>
+            <path d="M28.5,256.5 L886.502331,256.5" id="top-line-copy-2" stroke="#E9E9E9" stroke-linecap="square"></path>
+            <path d="M28.5,315.5 L886.502331,315.5" id="top-line-copy-3" stroke="#E9E9E9" stroke-linecap="square"></path>
+            <path d="M28.5,374.5 L886.502331,374.5" id="top-line-copy-4" stroke="#E9E9E9" stroke-linecap="square"></path>
+            <path d="M28.5,433.5 L886.502331,433.5" id="top-line-copy-5" stroke="#E9E9E9" stroke-linecap="square"></path>
+            <path d="M28.5,497.5 L886.502331,497.5" id="top-line-copy-6" stroke="#E9E9E9" stroke-linecap="square"></path>
+            <rect id="Rectangle-2" fill="#D8D8D8" x="672" y="96" width="27" height="24" rx="1"></rect>
+            <circle id="Oval-2" stroke="#404040" stroke-width="2" cx="685" cy="107" r="4"></circle>
+            <path d="M688.5,110.5 L690.561553,112.561553" id="Line" stroke="#404040" stroke-width="2" stroke-linecap="square"></path>
+            <rect id="searchbox" stroke="#D7D7D7" x="89.5" y="95.5" width="610" height="25" rx="3"></rect>
+            <rect id="navbar" fill="#7E57E1" x="16" y="44" width="883" height="37"></rect>
+            <rect id="additem" fill="#2BB601" x="721" y="95" width="96" height="26" rx="3"></rect>
+            <g id="additem-copy-3" opacity="0.900000036">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#E9E9E9" stroke-width="1" x="817.5" y="212.5" width="63" height="25" rx="3"></rect>
+            </g>
+            <g id="additem-copy-4" opacity="0.900000036">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#E9E9E9" stroke-width="1" x="817.5" y="272.5" width="63" height="25" rx="3"></rect>
+            </g>
+            <g id="additem-copy-5" opacity="0.900000036">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#E9E9E9" stroke-width="1" x="817.5" y="332.5" width="63" height="25" rx="3"></rect>
+            </g>
+            <g id="additem-copy-6" opacity="0.900000036">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <rect stroke="#E9E9E9" stroke-width="1" x="817.5" y="391.5" width="63" height="25" rx="3"></rect>
+            </g>
+            <g id="additem-copy-7" opacity="0.900000036">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <rect stroke="#E9E9E9" stroke-width="1" x="817.5" y="453.5" width="63" height="25" rx="3"></rect>
+            </g>
+            <g id="additem-copy-8" opacity="0.900000036">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                <rect stroke="#E9E9E9" stroke-width="1" x="817.5" y="511.5" width="63" height="25" rx="3"></rect>
+            </g>
+            <text id="View" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#222222">
+                <tspan x="832" y="230">View</tspan>
+            </text>
+            <text id="View-Copy" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#222222">
+                <tspan x="832" y="290">View</tspan>
+            </text>
+            <text id="View-Copy-2" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#222222">
+                <tspan x="832" y="350">View</tspan>
+            </text>
+            <text id="View-Copy-3" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#222222">
+                <tspan x="832" y="409">View</tspan>
+            </text>
+            <text id="View-Copy-4" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#222222">
+                <tspan x="832" y="471">View</tspan>
+            </text>
+            <text id="View-Copy-5" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#222222">
+                <tspan x="832" y="529">View</tspan>
+            </text>
+            <polygon id="Triangle" fill="#222222" points="868 229 864 224 872 224"></polygon>
+            <polygon id="Triangle-Copy" fill="#222222" points="868 289 864 284 872 284"></polygon>
+            <polygon id="Triangle-Copy-2" fill="#222222" points="868 349 864 344 872 344"></polygon>
+            <polygon id="Triangle-Copy-3" fill="#222222" points="868 408 864 403 872 403"></polygon>
+            <polygon id="Triangle-Copy-4" fill="#222222" points="868 470 864 465 872 465"></polygon>
+            <polygon id="Triangle-Copy-5" fill="#222222" points="868 528 864 523 872 523"></polygon>
+            <text id="Logout" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#FFFFFF">
+                <tspan x="814" y="67">Logout</tspan>
+            </text>
+            <text id="Dashboard" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#FFFFFF">
+                <tspan x="730" y="67">Dashboard</tspan>
+            </text>
+            <text id="KeepInStock" font-family="Helvetica" font-size="15" font-weight="normal" fill="#FFFFFF">
+                <tspan x="27" y="68">KeepInStock</tspan>
+            </text>
+            <text id="Add-Inventory" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#FFFFFF">
+                <tspan x="730" y="112">Add Inventory</tspan>
+            </text>
+            <text id="#" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="35" y="173">#</tspan>
+            </text>
+            <text id="Name" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="73" y="173">Name</tspan>
+            </text>
+            <text id="SKU" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="247" y="173">SKU</tspan>
+            </text>
+            <text id="Internal-Price" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="341" y="157">Internal</tspan>
+                <tspan x="341" y="172">Price</tspan>
+            </text>
+            <text id="Sale-Price" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="422" y="157">Sale</tspan>
+                <tspan x="422" y="172">Price</tspan>
+            </text>
+            <text id="Quantity" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="488" y="173">Quantity</tspan>
+            </text>
+            <text id="Details" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="554" y="173">Details</tspan>
+            </text>
+            <text id="Actions" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="823" y="173">Actions</tspan>
+            </text>
+            <text id="0" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="35" y="228">0</tspan>
+            </text>
+            <text id="1" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="35" y="288">1</tspan>
+            </text>
+            <text id="2" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="35" y="350">2</tspan>
+            </text>
+            <text id="3" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="35" y="410">3</tspan>
+            </text>
+            <text id="4" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="35" y="468">4</tspan>
+            </text>
+            <text id="5" font-family="Arial-BoldMT, Arial" font-size="13" font-weight="bold" fill="#222222">
+                <tspan x="35" y="527">5</tspan>
+            </text>
+            <rect id="Rectangle-3" fill="#F2F2F2" x="64" y="218" width="33" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-13" fill="#F2F2F2" x="64" y="517" width="33" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-2" fill="#F2F2F2" x="231" y="218" width="63" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-14" fill="#F2F2F2" x="231" y="278" width="63" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-37" fill="#F2F2F2" x="229" y="458" width="63" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-24" fill="#F2F2F2" x="229" y="400" width="63" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-25" fill="#F2F2F2" x="231" y="338" width="63" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-3" fill="#F2F2F2" x="247" y="218" width="19" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-50" fill="#F2F2F2" x="247" y="517" width="19" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-4" fill="#F2F2F2" x="275" y="218" width="19" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-5" fill="#F2F2F2" x="346" y="218" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-51" fill="#F2F2F2" x="346" y="517" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-15" fill="#F2F2F2" x="346" y="278" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-39" fill="#F2F2F2" x="344" y="458" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-32" fill="#F2F2F2" x="344" y="400" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-26" fill="#F2F2F2" x="346" y="338" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-6" fill="#F2F2F2" x="418" y="218" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-52" fill="#F2F2F2" x="418" y="517" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-16" fill="#F2F2F2" x="418" y="278" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-40" fill="#F2F2F2" x="416" y="458" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-33" fill="#F2F2F2" x="416" y="400" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-27" fill="#F2F2F2" x="418" y="338" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-7" fill="#F2F2F2" x="497" y="218" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-53" fill="#F2F2F2" x="497" y="517" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-17" fill="#F2F2F2" x="497" y="278" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-42" fill="#F2F2F2" x="495" y="458" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-35" fill="#F2F2F2" x="495" y="400" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-28" fill="#F2F2F2" x="497" y="338" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-8" fill="#F2F2F2" x="566" y="218" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-54" fill="#F2F2F2" x="566" y="517" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-18" fill="#F2F2F2" x="566" y="278" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-43" fill="#F2F2F2" x="564" y="458" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-36" fill="#F2F2F2" x="564" y="400" width="89" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-29" fill="#F2F2F2" x="566" y="338" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-9" fill="#F2F2F2" x="618" y="218" width="73" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-55" fill="#F2F2F2" x="618" y="517" width="73" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-19" fill="#F2F2F2" x="618" y="278" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-44" fill="#F2F2F2" x="616" y="458" width="37" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-30" fill="#F2F2F2" x="618" y="338" width="73" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-10" fill="#F2F2F2" x="706" y="218" width="48" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-56" fill="#F2F2F2" x="706" y="517" width="48" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-20" fill="#F2F2F2" x="665" y="278" width="89" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-45" fill="#F2F2F2" x="663" y="458" width="89" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-38" fill="#F2F2F2" x="663" y="400" width="89" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-31" fill="#F2F2F2" x="706" y="338" width="48" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-11" fill="#F2F2F2" x="566" y="237" width="73" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-21" fill="#F2F2F2" x="566" y="297" width="48" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-46" fill="#F2F2F2" x="564" y="477" width="48" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-12" fill="#F2F2F2" x="654" y="237" width="73" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-22" fill="#F2F2F2" x="618" y="297" width="109" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-47" fill="#F2F2F2" x="616" y="477" width="109" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy" fill="#F2F2F2" x="104" y="218" width="56" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-57" fill="#F2F2F2" x="104" y="517" width="56" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-23" fill="#F2F2F2" x="64" y="278" width="56" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-48" fill="#F2F2F2" x="62" y="458" width="73" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-49" fill="#F2F2F2" x="147" y="458" width="27" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-41" fill="#F2F2F2" x="62" y="400" width="56" height="13" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-34" fill="#F2F2F2" x="62" y="338" width="98" height="13" rx="6"></rect>
+        </g>
+    </g>
+</svg>

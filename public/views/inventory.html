@@ -1,0 +1,46 @@
+<div class="container-fluid" style="height: 100%;">
+  <div class="col-md-12" style="margin-top: 20px">
+    <div class="col-md-10">
+      <input type="search" class="form-control" placeholder="Search for an item" ng-model="searchItems">
+    </div>
+    <div class="col-md-2">
+      <a class="btn btn-success" ng-click="openModal()">Add Inventory</a>
+    </div>
+  </div>
+  <div style="overflow: scroll; height: 70vh;">
+    <table class="table table-hover">
+      <thead fix-head>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>SKU</th>
+          <th>Internal Price</th>
+          <th>Sale Price</th>
+          <th>Quantity</th>
+          <th>Details</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody ng-repeat="item in ItemsArray | filter:searchItems">
+        <tr>
+          <th scope="row">{{ $index }}</th>
+          <td>{{ item.title }}</td>
+          <td>{{ item.sku }}</td>
+          <td>${{ item.salePrice }}</td>
+          <td>${{ item.purchCost }}</td>
+          <td>{{ item.quantity }}</td>
+          <td>{{ item.details }}</td>
+          <td>
+            <div class="dropdown">
+              <a href="" class="btn btn-info dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ng-show="loggedIn" ng-cloak>View<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="">Edit</a></li>
+                <li><a href="" ng-click="delete()">Delete</a></li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

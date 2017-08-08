@@ -1,0 +1,31 @@
+{
+  "name": "keepinstock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "author": "Daniel Slapelis",
+  "license": "ISC",
+  "dependencies": {
+    "angular-fixed-table-header": "^0.2.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongodb": "^2.2.29",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.8.2",
+    "password-hash": "^1.2.2",
+    "stripe": "^4.23.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-uglify": "^3.0.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "nodemon": "^1.11.0"
+  }
+}
