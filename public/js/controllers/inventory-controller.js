@@ -16,31 +16,58 @@ angular.module('Inventory')
                  InventoryService.RefreshItems( function(response) {
                    $scope.ItemsArray = response;
                  })
-                 
-                 $scope.delete = function() {
-                   
-                 }
 
-
-                 $scope.openModal = function(){
-                   $scope.modalInstance = $uibModal.open({
-                     ariaLabelledBy: 'modal-title',
-                     ariaDescribedBy: 'modal-body',
-                     templateUrl: '/views/modals/addItem.html',
-                     controller :'ModelHandlerController',
-                     controllerAs: '$ctrl',
-                     size: 'lg',
-                     resolve: {
+                 $scope.delete = function(id) {
+                   InventoryService.DeleteItem(id, function (response) {
+                     if(response.data.success) {
+                       InventoryService.RefreshItems( function(response) {
+                         $scope.ItemsArray = response;
+                       })
                      }
                    });
                  }
-                 
+
+                 $scope.edit = function(item) {
+
+                 }
+
+
+                 $scope.openModal = function(status, item){
+
+                   if (status == 'add') {
+                     $scope.modalInstance = $uibModal.open({
+                       ariaLabelledBy: 'modal-title',
+                       ariaDescribedBy: 'modal-body',
+                       templateUrl: '/views/modals/addItem.html',
+                       controller :'AddInventoryModalHandlerController',
+                       controllerAs: '$ctrl',
+                       size: 'lg',
+                       resolve: {
+                       }
+                     });
+                   } else if (status == 'edit') {
+                     $scope.modalInstance = $uibModal.open({
+                       ariaLabelledBy: 'modal-title',
+                       ariaDescribedBy: 'modal-body',
+                       templateUrl: '/views/modals/editItem.html',
+                       controller :'AddInventoryModalHandlerController',
+                       controllerAs: '$ctrl',
+                       size: 'lg',
+                       resolve: {
+                         item: function () {
+                          return item;
+                        }
+                       }
+                     });
+                   }
+                 }
+
                  InventoryNotifyingService.subscribe($scope, function somethingChanged() {
                    InventoryService.RefreshItems(function(response) {
                      $scope.ItemsArray = response;
                    })
                  });
-               
+
                }]);
 
 /* ----------------------------------------------------
@@ -49,16 +76,16 @@ angular.module('Inventory')
 ------------------------------------------------------- 
 ------------------------------------------------------- */
 
-angular.module('ModalHandler')
-  .controller('ModelHandlerController',
-  function($scope, $uibModalInstance, InventoryService, InventoryNotifyingService) {
+angular.module('AddInventoryModalHandler')
+  .controller('AddInventoryModalHandlerController',
+              function($scope, $uibModalInstance, InventoryService, InventoryNotifyingService) {
 
   $scope.cancelModal = function(){
     $uibModalInstance.dismiss('close');
   }
   $scope.ok = function(){
     InventoryService.AddItem($scope.title, $scope.cost, $scope.price, $scope.sku, $scope.quantity, $scope.details,
-    function (response) {
+                             function (response) {
       if(response.data.success){
         InventoryNotifyingService.notify();
       }

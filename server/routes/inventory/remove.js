@@ -4,7 +4,8 @@ var ObjectID = require('mongodb').ObjectID;
 
 
 module.exports = (req, res) => {
-
+    
+    console.log(req.body.id);
     if (req.body.id) {
         var o_id = new ObjectID(req.body.id);
         var query = {

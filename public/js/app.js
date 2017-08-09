@@ -2,8 +2,9 @@
 angular.module('Authentication', []);
 angular.module('Inventory', []);
 angular.module('Register', []);
-angular.module('ModalHandler', []);
+angular.module('AddInventoryModalHandler', []);
 angular.module('InventoryNotifying', []);
+angular.module('RegisterModalHandler', []);
 
 
 
@@ -12,7 +13,8 @@ angular.module('keepInStockApp', [
     'Authentication',
     'Inventory',
     'Register',
-    'ModalHandler',
+    'RegisterModalHandler',
+    'AddInventoryModalHandler',
     'InventoryNotifying',
     'ngRoute',
     'ngCookies',

@@ -3,17 +3,40 @@
 angular.module('Register')
 
   .controller('RegisterController',
-              ['$http', '$scope', '$rootScope', '$location', 'AuthenticationService',
-               function ($http, $scope, $rootScope, $location, AuthenticationService) {
+              ['$http', '$scope', '$rootScope', '$location', '$uibModal', 'AuthenticationService',
+               function ($http, $scope, $rootScope, $location, $uibModal, AuthenticationService) {
 
-                 $scope.register = function () {
-                   AuthenticationService.Register($scope.name, $scope.email, $scope.phone, $scope.password, $scope.token, function (response) {
-                     if (response) {
-                       console.log(response);
-                     } else {
-                       console.log('ok');
-                     }
-                   });
+                 $scope.openModal = function(status){
+
+                   if(status == 'success') {
+
+                     $scope.modalInstance = $uibModal.open({
+                       ariaLabelledBy: 'modal-title',
+                       ariaDescribedBy: 'modal-body',
+                       templateUrl: '/views/modals/registrationComplete.html',
+                       windowClass: 'center-modal',
+                       controller :'RegisterModalHandlerController',
+                       controllerAs: '$ctrl',
+                       size: 'lg',
+                       resolve: {
+                       }
+                     });
+
+                   } else {
+
+                     $scope.modalInstance = $uibModal.open({
+                       ariaLabelledBy: 'modal-title',
+                       ariaDescribedBy: 'modal-body',
+                       templateUrl: '/views/modals/registrationFailure.html',
+                       windowClass: 'center-modal',
+                       controller :'RegisterModalHandlerController',
+                       controllerAs: '$ctrl',
+                       size: 'lg',
+                       resolve: {
+                       }
+                     });
+
+                   }
                  }
 
                  $scope.init = function() {
@@ -39,20 +62,26 @@ angular.module('Register')
                    card.mount('#card-element');
 
                    function setOutcome(result) {
-                     var successElement = document.querySelector('.success');
                      var errorElement = document.querySelector('.error');
-                     successElement.classList.remove('visible');
                      errorElement.classList.remove('visible');
 
                      if (result.token) {
                        // Use the token to create a charge or a customer
                        // https://stripe.com/docs/charges
-                       successElement.querySelector('.token').textContent = result.token.id;
                        $scope.token = result.token.id;
-                       $scope.register($scope.name, $scope.email, $scope.password, $scope.token, function (response) {
-
+                       AuthenticationService.Register($scope.name, $scope.email, $scope.phone, $scope.password, $scope.token, function (response) {
+                         if(response.data.success) {
+                           $scope.name = '';
+                           $scope.email = '';
+                           $scope.phone = '';
+                           $scope.password = '';
+                           $scope.token = '';
+                           card.clear();
+                           $scope.openModal('success');
+                         } else {
+                           $scope.openModal('failure');
+                         }
                        });
-                       successElement.classList.add('visible');
                      } else if (result.error) {
                        errorElement.textContent = result.error.message;
                        errorElement.classList.add('visible');
@@ -76,3 +105,16 @@ angular.module('Register')
                  $scope.init();
 
                }]);
+
+angular.module('RegisterModalHandler')
+  .controller('RegisterModalHandlerController',
+              function($scope, $uibModalInstance, InventoryService, InventoryNotifyingService) {
+
+  $scope.cancelModal = function(){
+    $uibModalInstance.dismiss('close');
+  }
+  $scope.ok = function(){
+    $uibModalInstance.close('save');
+  }
+
+});

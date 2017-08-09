@@ -13,7 +13,7 @@ angular.module('Authentication')
                      if (response.data.success) {
                        AuthenticationService.SetCredentials(response.data.token);
                        $rootScope.loggedIn = true;
-                       $location.path('/home');
+                       $location.path('/inventory');
                      } else {
                      }
                    });

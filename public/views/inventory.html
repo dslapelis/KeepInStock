@@ -1,10 +1,10 @@
-<div class="container-fluid" style="height: 100%;">
+<div class="container-fluid" style="height: 100%; background-color: white;">
   <div class="col-md-12" style="margin-top: 20px">
     <div class="col-md-10">
       <input type="search" class="form-control" placeholder="Search for an item" ng-model="searchItems">
     </div>
     <div class="col-md-2">
-      <a class="btn btn-success" ng-click="openModal()">Add Inventory</a>
+      <a class="btn btn-success" ng-click="openModal('add')">Add Inventory</a>
     </div>
   </div>
   <div style="overflow: scroll; height: 70vh;">
@@ -35,7 +35,7 @@
               <a href="" class="btn btn-info dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ng-show="loggedIn" ng-cloak>View<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="">Edit</a></li>
-                <li><a href="" ng-click="delete()">Delete</a></li>
+                <li><a href="" ng-click="delete(item._id)">Delete</a></li>
               </ul>
             </div>
           </td>
