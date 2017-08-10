@@ -101,7 +101,7 @@ html,body {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #006db3;
+    background-color: #ffffff;
   }
 }
 
@@ -168,44 +168,16 @@ fieldset[disabled] .btn-dark.active {
   color: white;
 }
 
-.img-container {
-  margin-top: 50px;
-}
-
-.alt-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: white;
-}
-
-.purp-container {
-  background-color: #7E57E1;
-  width: 100%;
-}
-
-.hero-container {
-  background-color: white;
-  margin-top: 50px;
-}
-
-.dark-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #222222;
-  color: white;
-}
-
-.container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-weight: 400;
+  color: inherit;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
 }
 
 .display-4 {
@@ -224,7 +196,8 @@ h5 {
   font-size: 1.5em;
   font-weight: 300;
 }
-.table-fixed{
+
+.table-fixed {
   width: 100%;
   background-color: #f3f3f3;
   tbody{
@@ -369,11 +342,42 @@ li {
 }
 
 .center-modal {
-    position: fixed;
-    top: 10%;
-    left: 18.5%;
-    z-index: 1050;
-    width: 80%;
-    height: 80%;
-    margin-left: -10%;
+  position: fixed;
+  top: 10%;
+  left: 18.5%;
+  z-index: 1050;
+  width: 80%;
+  height: 80%;
+  margin-left: -10%;
+}
+
+
+#pitch {
+  background-color: #15161c;
+  color: white;
+}
+
+div {
+  display: block;
+}
+
+.flow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px auto;
+  grid-auto-flow: row;
+  grid-column-gap: 3rem;
+}
+
+p {
+  display: block;
+  font-size: 1.3em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+section {
+  padding-top: 74px;
 }
