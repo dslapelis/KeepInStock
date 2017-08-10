@@ -27,39 +27,35 @@ angular.module('Inventory')
                    });
                  }
 
-                 $scope.edit = function(item) {
+                 $scope.openAddModal = function(){
+
+                   $scope.modalInstance = $uibModal.open({
+                     ariaLabelledBy: 'modal-title',
+                     ariaDescribedBy: 'modal-body',
+                     templateUrl: '/views/modals/addItem.html',
+                     controller :'AddInventoryModalHandlerController',
+                     controllerAs: '$ctrl',
+                     size: 'lg',
+                     resolve: {
+                     }
+                   });
 
                  }
 
-
-                 $scope.openModal = function(status, item){
-
-                   if (status == 'add') {
-                     $scope.modalInstance = $uibModal.open({
-                       ariaLabelledBy: 'modal-title',
-                       ariaDescribedBy: 'modal-body',
-                       templateUrl: '/views/modals/addItem.html',
-                       controller :'AddInventoryModalHandlerController',
-                       controllerAs: '$ctrl',
-                       size: 'lg',
-                       resolve: {
+                 $scope.openEditModal = function(item) {
+                   $scope.modalInstance = $uibModal.open({
+                     ariaLabelledBy: 'modal-title',
+                     ariaDescribedBy: 'modal-body',
+                     templateUrl: '/views/modals/editItem.html',
+                     controller :'EditInventoryModalHandlerController',
+                     controllerAs: '$ctrl',
+                     size: 'lg',
+                     resolve: {
+                       item: function() {
+                         return item
                        }
-                     });
-                   } else if (status == 'edit') {
-                     $scope.modalInstance = $uibModal.open({
-                       ariaLabelledBy: 'modal-title',
-                       ariaDescribedBy: 'modal-body',
-                       templateUrl: '/views/modals/editItem.html',
-                       controller :'AddInventoryModalHandlerController',
-                       controllerAs: '$ctrl',
-                       size: 'lg',
-                       resolve: {
-                         item: function () {
-                          return item;
-                        }
-                       }
-                     });
-                   }
+                     }
+                   });
                  }
 
                  InventoryNotifyingService.subscribe($scope, function somethingChanged() {
@@ -87,6 +83,30 @@ angular.module('AddInventoryModalHandler')
     InventoryService.AddItem($scope.title, $scope.cost, $scope.price, $scope.sku, $scope.quantity, $scope.details,
                              function (response) {
       if(response.data.success){
+        InventoryNotifyingService.notify();
+      }
+    });
+    $uibModalInstance.close('save');
+  }
+
+});
+
+angular.module('EditInventoryModalHandler')
+  .controller('EditInventoryModalHandlerController',
+              function($scope, $uibModalInstance, InventoryService, InventoryNotifyingService, item) {
+  $scope.title = item.title;
+  $scope.sku = item.sku;
+  $scope.quantity = item.quantity;
+  $scope.cost = item.purchCost;
+  $scope.price = item.salePrice;
+  $scope.details = item.details;
+  $scope.cancelModal = function(){
+    $uibModalInstance.dismiss('close');
+  }
+  $scope.ok = function(){
+    InventoryService.EditItem(item._id, $scope.title, $scope.cost, $scope.price, 
+                              $scope.sku, $scope.quantity, $scope.details, function (response) {
+      if(response.data.success) {
         InventoryNotifyingService.notify();
       }
     });

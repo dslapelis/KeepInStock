@@ -3,6 +3,7 @@ angular.module('Authentication', []);
 angular.module('Inventory', []);
 angular.module('Register', []);
 angular.module('AddInventoryModalHandler', []);
+angular.module('EditInventoryModalHandler', []);
 angular.module('InventoryNotifying', []);
 angular.module('RegisterModalHandler', []);
 
@@ -15,6 +16,7 @@ angular.module('keepInStockApp', [
     'Register',
     'RegisterModalHandler',
     'AddInventoryModalHandler',
+    'EditInventoryModalHandler',
     'InventoryNotifying',
     'ngRoute',
     'ngCookies',

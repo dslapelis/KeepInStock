@@ -4,7 +4,7 @@
       <input type="search" class="form-control" placeholder="Search for an item" ng-model="searchItems">
     </div>
     <div class="col-md-2">
-      <a class="btn btn-success" ng-click="openModal('add')">Add Inventory</a>
+      <a class="btn btn-success" ng-click="openAddModal()">Add Inventory</a>
     </div>
   </div>
   <div style="overflow: scroll; height: 70vh;">
@@ -34,7 +34,7 @@
             <div class="dropdown">
               <a href="" class="btn btn-info dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ng-show="loggedIn" ng-cloak>View<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="">Edit</a></li>
+                <li><a href="" ng-click="openEditModal(item)">Edit</a></li>
                 <li><a href="" ng-click="delete(item._id)">Delete</a></li>
               </ul>
             </div>

@@ -12,7 +12,6 @@ angular.module('Authentication')
                   url: '/api/users/refresh'
                 }).then(function successCallback(response) {
                   if (response.data.token) {
-                    console.log(response.data.token)
                     service.ClearCredentials();
                     service.SetCredentials(response.data.token);
                   }
@@ -88,6 +87,18 @@ angular.module('Inventory')
                   // none yet
                 });
               };
+
+              service.EditItem = function (id, title, cost, price, sku, quantity, details, callback) {
+                $http({
+                  method: 'POST',
+                  url: '/api/inventory/edit',
+                  data: { id: id, title: title, cost: cost, price: price, sku: sku, quantity: quantity, details: details }
+                }).then(function successCallback(response) {
+                  callback(response);
+                }, function errorCallback(response) {
+                  // none yet
+                });
+              }
 
               service.RefreshItems = function (callback) {
                 $http({
