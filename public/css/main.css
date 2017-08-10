@@ -381,3 +381,50 @@ p {
 section {
   padding-top: 74px;
 }
+
+.feature-image {
+  align-self: center;
+  justify-self: center;
+}
+
+.feature .feature-image img {
+  max-width: 20rem;
+  width: 100%;
+}
+
+#pricing {
+  background-color: #15161c;
+  color: white;
+  padding-bottom: 74px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+#footer {
+  padding-top: 20px;
+  background-color: #15161c;
+  color: white;
+  font-size: .8em;
+}
+.pricing {
+  background-color: #fff;
+  color: #15161c;
+  width: 100%;
+  max-width: 30rem;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 0 auto 1.5rem;
+  box-shadow: rgba(51,51,51,.188235) 0 10px 30px, rgba(51,51,51,.227451) 0 6px
+}
+
+li {
+  display: list-item;
+  text-align: --webkit-match-parent;
+}
+
+.pricing ul {
+  padding: 0;
+}
+
+.pricing li {
+  list-style: none;
+}

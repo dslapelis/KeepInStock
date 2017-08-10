@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="266px" height="247px" viewBox="0 0 266 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>notepad</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="59" y="28" width="149" height="191" rx="2.5"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notepad">
+            <g id="Rectangle">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="5" x="61.5" y="30.5" width="144" height="186" rx="2.5"></rect>
+            </g>
+            <rect id="Rectangle-3" fill="#D8D8D8" x="122" y="55" width="44" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy-4" fill="#D8D8D8" x="122" y="116" width="64" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy-7" fill="#D8D8D8" x="121" y="175" width="17" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy-8" fill="#D8D8D8" x="146" y="175" width="36" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy-9" fill="#D8D8D8" x="122" y="188" width="64" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy-5" fill="#D8D8D8" x="122" y="128" width="31" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy-6" fill="#D8D8D8" x="159" y="128" width="31" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy-3" fill="#D8D8D8" x="174" y="55" width="24" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy" fill="#D8D8D8" x="122" y="68" width="31" height="8" rx="2.5"></rect>
+            <rect id="Rectangle-3-Copy-2" fill="#D8D8D8" x="166" y="68" width="31" height="8" rx="2.5"></rect>
+            <circle id="Oval" stroke="#979797" stroke-width="5" cx="91.5" cy="182.955369" r="20.5"></circle>
+            <path d="M105.219537,188.545153 L87.8430426,188.545153 L87.8430426,194.337318 L108.115619,194.337318 L111.011701,194.337318 L111.011701,148 L105.219537,148 L105.219537,188.545153 Z" id="Combined-Shape" fill="#D8D8D8" transform="translate(99.427372, 171.168659) rotate(44.000000) translate(-99.427372, -171.168659) "></path>
+            <circle id="Oval" stroke="#979797" stroke-width="5" cx="91.5" cy="62.5" r="20.5"></circle>
+            <path d="M105.219537,68.545153 L87.8430426,68.545153 L87.8430426,74.3373178 L108.115619,74.3373178 L111.011701,74.3373178 L111.011701,28 L105.219537,28 L105.219537,68.545153 Z" id="Combined-Shape" fill="#D8D8D8" transform="translate(99.427372, 51.168659) rotate(44.000000) translate(-99.427372, -51.168659) "></path>
+            <circle id="Oval" stroke="#979797" stroke-width="5" cx="91.5" cy="123.5" r="20.5"></circle>
+            <path d="M105.219537,129.089784 L87.8430426,129.089784 L87.8430426,134.881949 L108.115619,134.881949 L111.011701,134.881949 L111.011701,88.544631 L105.219537,88.544631 L105.219537,129.089784 Z" id="Combined-Shape" fill="#D8D8D8" transform="translate(99.427372, 111.713290) rotate(44.000000) translate(-99.427372, -111.713290) "></path>
+        </g>
+    </g>
+</svg>
