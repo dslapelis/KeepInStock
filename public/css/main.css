@@ -10,11 +10,8 @@ html,body {
 }
 
 .main-head {
-  background-color: #7E57E1;
-  background: -webkit-linear-gradient(#7E57E1, #8a68de); 
-  background: -o-linear-gradient(#7E57E1, #8a68de); 
-  background: -moz-linear-gradient(#7E57E1, #8a68de); 
-  background: linear-gradient(#7E57E1, #8a68de);*/
+  background-image: url("/img/header-bg.svg");
+  background-size: cover;
 }
 .navbar-default {
   background-color: #7E57E1;
