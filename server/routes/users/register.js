@@ -1,7 +1,7 @@
 var User = require('./models/user.js');
 const passwordHash = require('password-hash');
 var stripe = require('stripe')(
-  "sk_test_uP94w32DrTTocGgCB9jCK09S"
+  "sk_live_qcsZ9vqcp051NxdDsSPNaSuK"
 );
 
 module.exports = (req, res) => {
