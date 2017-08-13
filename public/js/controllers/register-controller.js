@@ -40,7 +40,7 @@ angular.module('Register')
                  }
 
                  $scope.init = function() {
-                   var stripe = Stripe('pk_test_89Fn7Nqjyj2bA0f5VL51kfDt');
+                   var stripe = Stripe('pk_live_a1WNi8LDwcKwVikH5CZPAI0o');
                    var elements = stripe.elements();
 
                    var card = elements.create('card', {
