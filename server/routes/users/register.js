@@ -41,7 +41,7 @@ module.exports = (req, res) => {
           return stripe.subscriptions.create({
             customer: customer.id,
             items: [{
-              plan: "basic"
+              plan: "free"
             }]
           }, function(err, subscription) {
             res.json({ success: true });
